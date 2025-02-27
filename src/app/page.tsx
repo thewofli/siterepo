@@ -44,7 +44,7 @@ export default function Sites() {
                   Explore our site repository
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  A curated collection of websites and projects for quick reference. Each site showcases different design patterns and functionality.
+                  A curated collection of curated by members of the r/w community. Add your own site to the collection by... idk, tbd.
                 </p>
               </div>
             </div>
