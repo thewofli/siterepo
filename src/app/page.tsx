@@ -80,7 +80,7 @@ export default function Sites() {
             ))}
             
             <BlurFade delay={BLUR_FADE_DELAY * (4 + DATA.sites.length * 0.05)}>
-              <Link href="https://github.com/yourusername/site-repository" className="flex h-full">
+              <Link href="https://github.com/thewofli/siterepo" className="flex h-full">
                 <Card className="flex h-full w-full flex-col items-center justify-center rounded-lg border border-dashed p-10 text-center transition-colors hover:bg-muted/50">
                   <PlusCircle className="mb-4 h-10 w-10 text-muted-foreground" />
                   <h3 className="text-xl font-medium">Add a new site</h3>
@@ -104,12 +104,13 @@ export default function Sites() {
               </p>
               <pre className="overflow-x-auto rounded-lg bg-muted-foreground/10 p-4">
                 <code>{`{
-  name: "Your Site Name",
-  description: "Brief description of your site",
-  url: "https://your-site-url.com",
-  image: "https://image-url.com/your-site-image.jpg",
-  tags: ["Tag1", "Tag2", "Tag3"]
-}`}</code>
+                    name: "Your Site Name",
+                    description: "Brief description of your site",
+                    url: "https://your-site-url.com",
+                    image: "https://image-url.com/your-site-image.jpg",
+                    tags: ["Tag1", "Tag2", "Tag3"]
+                  }`}
+                </code>
               </pre>
               <p>
                 The site will automatically appear in the grid with all the information you provided.
